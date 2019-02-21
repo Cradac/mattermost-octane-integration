@@ -25,7 +25,7 @@ To get more information on how to do this go [here](http://flask.pocoo.org/docs/
 2. Press `Integrations`
 3. In the center of the screen click `Incoming Webhooks`
 4. Add a new webhook by clicking on `Add Incoming Webhook`
-5. Copy the URL and set it as `mm_webhook_url` in [Settings.py](https://seu15.gdc-leinf01.t-systems.com/gitblit/blob/?r=IMAGIT/Mattermost-Octane-Client.git&f=settings.py&h=master)
+5. Copy the URL and set it as `mm_webhook_url` in [Settings.py](settings.py)
 6. You may also change the appearance of the Client and the target channel in this file
 
 
@@ -55,4 +55,4 @@ To Setup ALM Octane Webhooks you need to follow these steps:
 
 ## Run the application
 
-If you have installed all packages, set all necessary variables in [Settings.py](https://seu15.gdc-leinf01.t-systems.com/gitblit/blob/?r=IMAGIT/Mattermost-Octane-Client.git&f=settings.py&h=master) and setup Mattermost as well as ALM Octane for the Webhooks you can execute the client by typing `python app.py` in the console window.
+If you have installed all packages, set all necessary variables in [Settings.py](settings.py) and setup Mattermost as well as ALM Octane for the Webhooks you can execute the client by typing `python app.py` in the console window.
