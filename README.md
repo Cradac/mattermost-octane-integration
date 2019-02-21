@@ -1,6 +1,6 @@
 # Mattermost-Octane-Client
 
-The Mattermost-Ocatane-Client creates an integration for the communication platform Mattermost to post defects from the lifecycle management tool `ALM Octane`.
+The Mattermost-Ocatane-Client creates an integration for the communication platform Mattermost to post defects from the lifecycle management tool ALM Octane.
 
 ## Delivery
 
