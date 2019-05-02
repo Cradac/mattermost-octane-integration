@@ -25,7 +25,7 @@ mm_profileimage = 'https://i.imgur.com/7Wg3Tgs.png' #Telekom T Image
 
 
 #set external IP for the Flask Server to create a Webhook for ALM Octane
-#local: 127.0.0.1 
+#local: 127.0.0.1 / False
 #default external: 0.0.0.0 (will default to only available external adress)
 external_ip = False
 
