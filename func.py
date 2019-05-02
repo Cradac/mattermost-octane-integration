@@ -1,4 +1,4 @@
-import settings, requests
+import settings, requests, json
 from markdownify import markdownify as md
 
 def format_message(j_t):
@@ -63,7 +63,8 @@ def post_to_mattermost(message, url):
         payload['username'] = settings.mm_username
     if settings.mm_profileimage:
         payload['icon_url'] = settings.mm_profileimage
-
+    parsed = json.loads(payload)
+    print(json.dumps(parsed, indent=4, sort_keys=True))
     request = requests.post(url, json=payload)
 
 
